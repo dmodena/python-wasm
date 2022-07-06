@@ -1,6 +1,8 @@
 # python-wasm
 *Exemplo de uso de Python no front-end com WASM via Pyodide*
 
+Live demo no link https://dmodena.github.io/python-wasm/
+
 Pyodide é uma distribuição de Python para browser por meio do Web Assembly.
 
 Adicionando uma *script tag*, conferimos à pagina o suporte ao Pyodide, e após o carregamento, podemos rodar código Python. Dentro do Python, o módulo js permite acesso ao **DOM** para manipulação de objetos. É possível também o caminho contrário, fazendo com que código JavaScript acesse variáveis declaradas no Python.
